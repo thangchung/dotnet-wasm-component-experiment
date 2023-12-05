@@ -40,4 +40,5 @@ You should see the wasm/wasi component at `bin\Debug\net8.0\wasi-wasm\native\Add
 ```
 
 ## Refs
+- https://devblogs.microsoft.com/dotnet/extending-web-assembly-to-the-cloud/ 
 - https://learn.microsoft.com/en-us/windows/dev-environment/rust/setup
