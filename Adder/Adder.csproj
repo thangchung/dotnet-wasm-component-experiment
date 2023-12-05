@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RuntimeIdentifier>wasi-wasm</RuntimeIdentifier>
+    <!-- error MSB4057: The target "PrepareForILLink" does not exist in the project. -->
+    <PublishTrimmed>true</PublishTrimmed> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Wit Update="calculator.wit" World="computer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WasmComponent.Sdk" Version="0.1.0-preview00026" />
+  </ItemGroup>
+  
+
+</Project>
