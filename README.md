@@ -1,6 +1,6 @@
 # Add solution
 
-This repository is for experiment [`wasm-component-sdk`](`https://github.com/SteveSandersonMS/wasm-component-sdk`).
+This repository is for experiment [`wasm-component-sdk`](https://github.com/SteveSandersonMS/wasm-component-sdk).
 
 > Run on Windows 11 only. It couldn't work on Ubuntu or MacOS 😂
 
